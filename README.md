@@ -33,7 +33,9 @@ go run ./cmd/monomer
 
 ## Config
 
-`go run ./cmd/monomer --help` will print available flags. Default config is aligned with defaults from roll-op.
+`go run ./cmd/monomer --help` will print available flags.
+
+Default config values are aligned with defaults from roll-op, and include a genesis state for the test Cosmos SDK application.
 
 ## Building Monomer:
 

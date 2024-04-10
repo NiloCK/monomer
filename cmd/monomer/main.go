@@ -47,7 +47,7 @@ func run(ctx context.Context) (err error) {
 	var ethPort uint64
 	flag.Uint64Var(&ethPort, "eth-port", 9546, "") //nolint:gomnd
 	var genesisFile string
-	flag.StringVar(&genesisFile, "genesis-file", "", "")
+	flag.StringVar(&genesisFile, "genesis-file", "./testutil/testapp/genesis.json", "")
 
 	flag.Parse()
 
